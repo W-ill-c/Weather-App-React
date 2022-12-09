@@ -1,8 +1,50 @@
 .locationSearch{
     display:flex;
     background-color: #1f75fe;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    /* font-style: ; */
+}
+
+.title h1{
+    padding: 0px;
+    margin: 0px;
 }
 
 .title{
     color: white;
+}
+
+.searchInput form{
+    background-color: white;
+    border-radius: 1px;
+    width: 70vw;
+    height: 2.4rem;
+    padding: 3.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchInput input{
+    border-style: none;
+    width: 95%;
+    height: 95%;
+}
+
+.searchInput input:focus{
+    outline: none;
+}
+
+.searchInput ::placeholder{
+    color: rgb(97, 96, 96);
+    font-size: 1.05rem;
+}
+
+.searhIcon{
+    font-size: 1.5rem;
+    cursor: pointer;
 }
