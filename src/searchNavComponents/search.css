@@ -6,6 +6,8 @@
     justify-content: space-evenly;
     height: 10vh;
     /* font-style: ; */
+    position: relative;
+    width: 100vw;
 }
 
 .title h1{
@@ -15,24 +17,28 @@
 
 .title{
     color: white;
+    position: relative;
+    right: 0.5vw;
 }
 
 .searchInput form{
     background-color: white;
     border-radius: 1px;
-    width: 70vw;
+    width: 78.5vw;
     height: 2.4rem;
     padding: 3.5px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .searchInput input{
     border-style: none;
     width: 95%;
     height: 95%;
+    font-size: 1.05rem;
 }
 
 .searchInput input:focus{
@@ -44,7 +50,28 @@
     font-size: 1.05rem;
 }
 
+
 .searhIcon{
     font-size: 1.5rem;
     cursor: pointer;
+    position: relative;
+    right: 6px;
+}
+
+.locationIconDiv{
+    background-color: black;
+    height: 2.8rem;
+    width: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5px;
+    opacity: 0.975;
+    left: 0.5vw;
+    position: relative;
+}
+
+.locationIcon{
+    font-size: 1.5rem;
+    color: white;
 }
