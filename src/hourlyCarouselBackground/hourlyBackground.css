@@ -1,0 +1,30 @@
+.backgroundMain{
+    height: 65vh;
+}
+
+.backgroundFooter{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 3vw;
+}
+
+.pollutionUV{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.thermometer{
+    color: green;
+}
+
+.sunRiseSet{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.sunIcon{
+    color: yellow;
+}
