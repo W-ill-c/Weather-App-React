@@ -13,7 +13,10 @@
 .title h1{
     padding: 0px;
     margin: 0px;
-    /* font-size: larger; */
+    font-size: larger;
+}
+
+.locationImageComp{
     cursor: pointer;
 }
 
@@ -58,6 +61,9 @@
     cursor: pointer;
     position: relative;
     right: 6px;
+}
+
+.locationImageComp{
     color: rgb(69, 66, 66);
 }
 
