@@ -1,0 +1,21 @@
+.locationTitle h2{
+    color: white;
+}
+
+.locationTitle{
+    text-align: left;
+    background: transparent;
+    position: absolute;
+    left: 1vw;
+    font-size: 1.25rem;
+}
+
+.backgroundImgSection{
+    position: relative;
+}
+
+.backgroundImg{
+    width:100vw;
+    height: 40vh;
+    object-fit: cover;
+}
