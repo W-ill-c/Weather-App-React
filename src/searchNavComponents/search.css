@@ -13,7 +13,11 @@
 .title h1{
     padding: 0px;
     margin: 0px;
-    /* font-size: larger; */
+    font-size: larger;
+}
+
+.locationImageComp{
+    cursor: pointer;
 }
 
 .title{
@@ -59,6 +63,10 @@
     right: 6px;
 }
 
+.locationImageComp{
+    color: rgb(69, 66, 66);
+}
+
 .locationIconDiv{
     background-color: black;
     height: 2.8rem;
@@ -79,7 +87,49 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .locationSearch{
+        height: 12vh;
+        width: 99.5vw;
+    }
+
+    .searchInput{
+        position: relative;
+        right: 0.6vw;
+    }
+
+    .locationIcon{
+        font-size: 1.65rem;
+        position: relative;
+    }
+
+    .searhIcon{
+        font-size: 1.65rem;
+        right: 6px;
+    }
+
+    .title h1{
+        font-size: 2.35rem;
+    }
     
+    .title{
+        right: 0.2vw;
+    }
+    
+    .searchInput ::placeholder{
+        font-size: 1.05rem;
+    }
+
+    .searchInput form{
+        width: 67.5vw;
+        height: 2.2rem;
+        position: relative;
+        left: 2.2vw;
+    }
+
+    .locationIconDiv{
+        position: relative;
+        right: 1vw;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 991.9px) {
